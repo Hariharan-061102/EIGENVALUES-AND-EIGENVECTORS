@@ -15,7 +15,8 @@ Using the np.linalg.eig(),  we get two results (first is eigenvalue and second i
 End the program
 
 ## Program:
-~~~import numpy as np
+~~~
+import numpy as np
 A=np.array([[-2,2,-3],[2,1,-6],[-1,-2,0]])
 value,vector=np.linalg.eig(A)
 print("Eigen values are",value,"and Eigen Vectors are",vector)
